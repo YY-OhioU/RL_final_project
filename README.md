@@ -1,7 +1,11 @@
 # Project 
 
 ## Environment:
-    - source: 
+    - Out-of-box environment:
+        - Source: https://github.com/YY-OhioU/flappy-bird-gymnasium
+        - install:
+            ``` python setup.py install ```
+    - original source: 
         - flappy-bird-gymnasium
         - https://github.com/markub3327/flappy-bird-gymnasium
         - Modification:
@@ -10,7 +14,7 @@
                     ```if self.player_y + PLAYER_HEIGHT >= self.base_y - 1 or self.player_y <= 0:
                         return True
                     ```
-    - Other:
-        - basic reward: 0 per step
-        - penalty for dying: -2
-        - reward for scoreing: 5
+        - Other:
+            - basic reward: 0 per step
+            - penalty for dying: -2
+            - reward for scoreing: 5
