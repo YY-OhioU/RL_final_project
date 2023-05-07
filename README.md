@@ -1,17 +1,18 @@
 # Project 
 
 ## Environment:
-    - Out-of-box environment:
+   - Modified Out-of-box environment:
         - Source: https://github.com/YY-OhioU/flappy-bird-gymnasium
         - install:
             ``` python setup.py install ```
-    - original source: 
+    - Original Code: 
         - flappy-bird-gymnasium
         - https://github.com/markub3327/flappy-bird-gymnasium
         - Modification:
             - flappy-bird-gymnasium/envs/game_logic.py
                 - line 176: 
-                    ```if self.player_y + PLAYER_HEIGHT >= self.base_y - 1 or self.player_y <= 0:
+                    ```python
+                    if self.player_y + PLAYER_HEIGHT >= self.base_y - 1 or self.player_y <= 0:
                         return True
                     ```
         - Other:
