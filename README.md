@@ -11,6 +11,6 @@
                         return True
                     ```
     - Other:
-        - basic reward: 0.01 per step
+        - basic reward: 0 per step
         - penalty for dying: -2
-        - reward for scoreing: 1
+        - reward for scoreing: 5
